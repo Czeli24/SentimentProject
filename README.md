@@ -50,7 +50,7 @@ Follow these steps to set up the project on your local machine.
 
 ### 1. Clone the Repository.
 ```bash
-  git clone <your-repo-url>
+  git clone https://github.com/Czeli24/SentimentProject.git
   cd SentimentProject
 ```
 
