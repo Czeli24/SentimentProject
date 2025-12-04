@@ -86,6 +86,18 @@ Launch the Streamlit interface:
   streamlit run app.py   
 ```
 
+Launch with the Dockefile:
+``` bash 
+  1.Build the imagine.
+  docker build -t sentimentproject:latest .
+
+  2.Run the container.
+  docker run -p 8501:8501 sentimentproject:latest
+  
+  3. Go to the address.
+  http://localhost:8501
+```
+
 ## 🛠️ Dependencies
 
 streamlit - Web application framework
