@@ -1,0 +1,52 @@
+# Jupyter / Streamlit cache
+.ipynb_checkpoints/
+.streamlit/cache/
+.streamlit/secrets.toml
+.streamlit/*.lock
+
+# Streamlit default directories
+**/.streamlit/*cache*
+**/.streamlit/*cache*/**
+
+# Model files / large artifacts
+*.h5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.bin
+
+# Logs
+*.log
+logs/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Python packaging
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Cache
+.pytest_cache/
+cache/
+__cache__/
+
+# Ignore token files or secret keys
+token.txt
+apikey.txt
+*.secret
+*.key
