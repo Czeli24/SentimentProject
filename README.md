@@ -30,7 +30,7 @@ The project follows a modular structure for maintainability:
 ```text
 SentimentProject/
 │
-├── app.py             # Main Streamlit Application (Entry Point)
+├── app.py                   # Main Streamlit Application (Entry Point)
 ├── requirements.txt         # List of Python dependencies
 ├── README.md                # Project Documentation
 │
@@ -105,5 +105,7 @@ Name: Twitter US Airline Sentiment
 Source: Kaggle
 
 Content: The dataset contains tweets classified as positive, negative, or neutral regarding six US airlines.
+
+---
 
 ## © 2025 Czeli Zoltán-Dragoș | Anul III , Grupa: 1631A
